@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_buttons_action_buttons",
+  "info": {
+    "name": "Action Button",
+    "icon": "bolt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
