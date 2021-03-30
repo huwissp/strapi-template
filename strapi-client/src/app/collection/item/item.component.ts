@@ -9,7 +9,7 @@ import { StrapiService } from 'src/app/services/strapi.service';
 })
 export class ItemComponent implements OnInit {
 
-  
+  server = "localhost:1337"
   constructor(
     public strapi : StrapiService, 
     public route : ActivatedRoute) {

@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+.container{
+    max-width: 900px!important;
+    padding: 20px;
+}
+
+.button{
+    margin: 20px 0px;
+    color: white!important;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all ease-out .4s;
+    background: rgba(0, 0, 0, 0.9);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover{
+    opacity: 0.6;
+}

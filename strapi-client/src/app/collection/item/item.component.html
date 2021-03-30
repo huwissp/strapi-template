@@ -1,6 +1,11 @@
-<div *ngIf="item">
-    <p *ngIf="item.hasOwnProperty('title')">{{item.title}}</p>
-    <img *ngIf="item.hasOwnProperty('Image')" src="{{stripe.server + item.Image.formats.small.url}}" alt="">
-    <p *ngIf="item.hasOwnProperty('Body')">{{item.Body}}</p>
-    <a *ngIf="item.hasOwnProperty('Action')" target="_blank" href="{{item.Action.Link}}">{{item.Action.title}}</a>
+<div class="container">
+    <div *ngIf="item">
+        <p class="title" *ngIf="item.hasOwnProperty('title')">{{item.title}}</p>
+        <div class="image" *ngIf="item.hasOwnProperty('Image')" style="background-image: url('http://{{server + item.Image.formats.large.url}}');">
+     
+        </div>
+        <p class="body" *ngIf="item.hasOwnProperty('Body')">{{item.Body}}</p>
+        <hr>
+        <a class="button" *ngIf="item.hasOwnProperty('Action')" target="_blank" href="{{item.Action.Link}}">{{item.Action.title}}</a>
+    </div>
 </div>

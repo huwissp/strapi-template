@@ -7,6 +7,9 @@ import { CollectionComponent } from './collection/collection.component';
 import { ItemComponent } from './collection/item/item.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { TermsComponent } from './terms/terms.component';
+import { GdprComponent } from './gdpr/gdpr.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ContactComponent } from './contact/contact.component';
     CollectionComponent,
     ItemComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    PrivacyComponent,
+    TermsComponent,
+    GdprComponent
   ],
   imports: [
     BrowserModule,
